@@ -31,4 +31,24 @@ Note that all letters of the first name should be convered into lowercase.
 Please hit me with updates on the migration when you can. I am currently registering our university with the platform.
 
 - Tina, your delightful student
-susan@perfection:/$ 
+
+susan@perfection:/$
+susan@perfection:~$ grep -i password -R .
+grep -i password -R .
+grep: ./Migration/pupilpath_credentials.db: binary file matches
+
+susan@perfection:~$ strings ./Migration/pupilpath_credentials.db
+strings ./Migration/pupilpath_credentials.db
+SQLite format 3
+tableusersusers
+CREATE TABLE users (
+id INTEGER PRIMARY KEY,
+name TEXT,
+password TEXT
+Stephen Locke154a38b253b4e08cba818ff65eb4413f20518655950b9a39964c18d7737d9bb8S
+David Lawrenceff7aedd2f4512ee1848a3e18f86c4450c1c76f5c6e27cd8b0dc05557b344b87aP
+Harry Tylerd33a689526d49d32a01986ef5a1a3d2afc0aaee48978f06139779904af7a6393O
+**Tina Smithdd560928c97354e3c22972554c81901b74ad1b35f726a11654b78cd6fd8cec57Q**
+Susan Millerabeb6f8eb5722b8ca3b45f6f72a0cf17c7028d62a15a30199347d9d74f39023f
+susan@perfection:~$ 
+
